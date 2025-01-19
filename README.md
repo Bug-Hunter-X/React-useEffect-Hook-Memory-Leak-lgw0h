@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in React applications involving the `useEffect` hook.  The example showcases how forgetting to include a return statement in a `useEffect` cleanup function can lead to memory leaks and unexpected behavior. The solution provides the correct implementation with a cleanup function to prevent the memory leak.
